@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "549984111081",
+    "project_id": "tws-opsc7311",
+    "storage_bucket": "tws-opsc7311.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549984111081:android:a8653aca5d9882cc3de378",
+        "android_client_info": {
+          "package_name": "com.opsc7311.timewizesolutions_opensource"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcaRKuGk8ImO0CU1Ys_xvWzWYqhnV912s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549984111081:android:6916ca516191ab6b3de378",
+        "android_client_info": {
+          "package_name": "com.opsc7311.tws_opsc7311"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcaRKuGk8ImO0CU1Ys_xvWzWYqhnV912s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

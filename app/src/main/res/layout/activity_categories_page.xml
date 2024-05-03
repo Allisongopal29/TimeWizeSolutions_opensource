@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgroung9"
+    tools:context=".CategoriesPage">
+
+    <TextView
+        android:id="@+id/addProjectView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Project "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/projectNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Name:"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addProjectView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/projectNameTxt"
+        android:layout_width="362dp"
+        android:layout_height="38dp"
+        android:background="@color/browser_actions_bg_grey"
+        android:ems="10"
+        android:inputType="text"
+        android:text=" "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/projectDescriptionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Description:"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/projectNameTxt"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/projectDescriptionTxt"
+        android:layout_width="371dp"
+        android:layout_height="36dp"
+        android:background="@color/browser_actions_bg_grey"
+        android:ems="10"
+        android:inputType="text"
+        android:text=" "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/backBtn6"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:text="back"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="674dp" />
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="108dp"
+        android:text="ADD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/projectDescriptionTxt"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
